@@ -1,1 +1,1 @@
-collaborative-scatterplot-rendering
+# Collaborative Scatterplot Rendering
