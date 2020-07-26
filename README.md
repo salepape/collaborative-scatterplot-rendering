@@ -9,10 +9,12 @@ This independant project has been conducted during my end-of-studies internship,
 Just download the .zip project folder or clone the repo to your computer. Then open this folder under Unity. Be sure :
 * you have a HTC Vive headset (classic, PRO or PRO EYE) linked to the computer on which you run Unity, according to Vive cables and linking box. 
 * SteamVR application recognizes headset, its corresponding motion controllers as well as base stations / lighthouses (appears green when it's the case). 
+
 Before clicking Play button, you need to :
 * fill in appId required, provided when you create a Photon account (PUN Setup window pops up when project is opening, or go to Window > Photon Unity Networking > PUN Wizard > Setup Project);
 * provide your dataset through a .csv file, with its 3 first columns indicating its coordinates along x, y and z axes. Click on "Scatterplot" GameObject in the Hierarchical window, and provide your .csv file name in "inputfile" field;
 * choose the features you want to test in Unity right panel (cf Features section). Click on "Scatterplot" GameObject in the Hierarchical window, then double click on "Point Cloud Material" field, then check the boxes you want. You can also modify point representation characteristics.
+
 To finish, click Play button to launch the application. Then you enter the Networking Scene :
 * Some panels will successively be displayed to the screen ("Connect to Photon...loading...", "Connected", or "Lost connection to Photon services..." if failure). If it succeed, a connecting window will appear where you need to indicate your player name and the name of the server you want to create or join. 
 * Then, by clicking Create or Join button, you enter the Game Scene.
